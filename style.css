@@ -1,0 +1,158 @@
+html {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 50px 0 50px 0;
+    padding: 0;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 10px;
+    color: #202020;
+    background-color: #D2D2D2;
+}
+
+a {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    font-weight: 300;
+    line-height: 14px;
+    letter-spacing: 0.065em;
+    color: #474C51;
+}
+
+h1, 
+h2, 
+h3, 
+h4, 
+h5, 
+p,
+div,
+table,
+tbody,
+tr,
+td {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    width: 246px;
+    height: 70px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 144.18%;
+    letter-spacing: 0.25em;
+    color: #262626;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 144.18%;
+    letter-spacing: 0.09em;
+    color: #24292E;
+    text-transform: uppercase;
+}
+
+h3 {
+    padding-left: 10px;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 144.18%;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #474C51;
+}
+
+.container {
+    max-width: 595px;
+    margin: 0 auto;
+    padding: 70px 34px;
+    background-color: #F4F4F4;
+    box-shadow: -20px 20px 75px 10px rgba(0, 0, 0, 0.46);
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.line {
+    height: 0px;
+    margin: 10px 0;
+    border: 0.2px solid rgba(38, 38, 38, 0.5);
+}
+
+.link-gh {
+    margin-right: 10px;
+}
+
+main {
+    padding-top: 40px;
+}
+
+.left-block {
+    width: 170px;
+    margin-bottom: 50px;
+}
+
+.right-block {
+    width: 300px;
+    margin-bottom: 50px;
+}
+
+.right-block:last-child {
+    margin-bottom: 0;
+}
+
+.heading-blocks {
+    justify-content: flex-start;
+}
+
+.experience-table td {
+    padding: 0 97px 5px 0;
+}
+
+.education-table td{
+    padding: 0 0 5px 0;
+}
+
+.years {
+    padding: 0 !important;
+    font-weight: 300;
+    font-size: 8px;
+    line-height: 11px;
+    color: #202020;
+}
+
+.community-method {
+    margin-bottom: 5px;
+    font-weight: 300;
+}
+
+.skill {
+    margin-bottom: 10px;
+}
+
+.description-code {
+    margin-right: 5px;
+}
+
+footer div{
+    margin-top: 50px;
+}
